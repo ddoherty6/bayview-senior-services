@@ -9,7 +9,7 @@
 	<title>
 	Comments for Bayview Senior Services	</title>
 	<atom:link href="http://localhost/wordpress/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>http://ddoherty6.github.io/bayview-senior-services</link>
+	<link>./../../index.html</link>
 	<description></description>
 	<lastBuildDate>Tue, 14 Jun 2022 20:32:15 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		Comment on Hello world! by A WordPress Commenter		</title>
-		<link>http://ddoherty6.github.io/bayview-senior-services/2022/06/14/hello-world/#comment-1</link>
+		<link>./../../2022/06/14/hello-world/index.html#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Tue, 14 Jun 2022 20:32:15 +0000</pubDate>
-		<guid isPermaLink="false">http://ddoherty6.github.io/bayview-senior-services/?p=1#comment-1</guid>
+		<guid isPermaLink="false">./../../index.html?p=1#comment-1</guid>
 
 					<description><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
@@ -38,7 +38,7 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.</p>
 		<item>
 		<title>
 		Comment on Dr. George W. Davis Senior Center by Sharing joy never gets old: Bayview woman brings steel drumming and other &#039;feel good&#039; activities to community&#039;s seniors - San Francisco Senior Beat:		</title>
-		<link>http://ddoherty6.github.io/bayview-senior-services/dr-george-w-davis-senior-center/#comment-4</link>
+		<link>./../../dr-george-w-davis-senior-center/index.html#comment-4</link>
 
 		<dc:creator><![CDATA[Sharing joy never gets old: Bayview woman brings steel drumming and other &#039;feel good&#039; activities to community&#039;s seniors - San Francisco Senior Beat:]]></dc:creator>
 		<pubDate>Fri, 01 Nov 2019 15:48:31 +0000</pubDate>
