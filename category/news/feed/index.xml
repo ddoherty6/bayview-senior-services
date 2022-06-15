@@ -10,7 +10,7 @@
 <channel>
 	<title>news &#8211; Bayview Senior Services</title>
 	<atom:link href="http://localhost/wordpress/category/news/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<link>http://https://ddoherty6.github.io/bayview-senior-services</link>
 	<description></description>
 	<lastBuildDate>Mon, 27 May 2019 23:00:37 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=6.0</generator>
 	<item>
 		<title>Adult Day Health Center</title>
-		<link>/2019/05/27/adult-day-health-center/</link>
+		<link>http://https://ddoherty6.github.io/bayview-senior-services/2019/05/27/adult-day-health-center/</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Mon, 27 May 2019 23:00:37 +0000</pubDate>
@@ -71,7 +71,7 @@ by the Department of Health Services</em></p>
 			</item>
 		<item>
 		<title>Senior Centers</title>
-		<link>/2015/08/27/our-senior-centers/</link>
+		<link>http://https://ddoherty6.github.io/bayview-senior-services/2015/08/27/our-senior-centers/</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 27 Aug 2015 20:33:46 +0000</pubDate>
@@ -87,7 +87,7 @@ by the Department of Health Services</em></p>
 			</item>
 		<item>
 		<title>Senior Ex Offender Program</title>
-		<link>/2015/08/26/seop/</link>
+		<link>http://https://ddoherty6.github.io/bayview-senior-services/2015/08/26/seop/</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 26 Aug 2015 23:02:57 +0000</pubDate>
