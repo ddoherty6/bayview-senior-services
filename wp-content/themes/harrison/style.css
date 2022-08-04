@@ -59,7 +59,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--text-color: rgba(0, 0, 0, 0.9);
 	--medium-text-color: rgba(0, 0, 0, 0.7);
 	--light-text-color: rgba(0, 0, 0, 0.5);
-	--page-background-color: #fff;
+	--page-background-color: linear-gradient(to bottom, #c2602b, #fcebd3); /* ----------------- */
 	--page-border-color: rgba(0, 0, 0, 0.1);
 	--page-light-bg-color: rgba(0, 0, 0, 0.05);
 	--link-color: #c9493b;
@@ -68,16 +68,16 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--button-text-color: #fff;
 	--button-hover-color: #e36355;
 	--button-hover-text-color: #fff;
-	--header-background-color: #fff;
-	--header-text-color: rgba(0, 0, 0, 0.9);
-	--header-text-hover-color: #e36355;
+	--header-background-color: linear-gradient(to bottom, #c2602b, #fcebd3); /*not used */
+	--header-text-color: #57260c;
+	--header-text-hover-color: #cf922a;
 	--header-border-color: rgba(0, 0, 0, 0.1);
 	--title-color: #202020;
 	--title-hover-color: #e36355;
-	--footer-background-color: #202020;
-	--footer-text-color: rgba(255, 255, 255, 0.5);
-	--footer-link-color: rgba(255, 255, 255, 0.95);
-	--footer-link-hover-color: rgba(255, 255, 255, 0.5);
+	--footer-background-color: linear-gradient(to bottom, #bda793, #fcebd3); /* not used */
+	--footer-text-color: #57260c;
+	--footer-link-color: #57260c;
+	--footer-link-hover-color: cf922a;
 	--footer-border-color: rgba(255, 255, 255, 0.1);
 	--text-font: "Barlow", arial, helvetica, sans-serif;
 	--title-font: "Barlow", arial, helvetica, sans-serif;
@@ -702,7 +702,8 @@ textarea {
 	overflow: hidden;
 	max-width: 1440px;
 	background-color: #fff;
-	background-color: var(--page-background-color);
+	background: var(--page-background-color);
+	/*background-image: url("../../uploads/2015/08/6280430.jpg");*/
 }
 
 .site-header,
@@ -727,8 +728,8 @@ textarea {
 	padding: 1.5rem;
 }
 
-.site-footer {
-	padding: 1rem 1.5rem;
+#colophon {
+	padding-top: 0;s
 }
 
 /*--------------------------------------------------------------
