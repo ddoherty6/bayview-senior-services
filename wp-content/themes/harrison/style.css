@@ -712,6 +712,12 @@ textarea {
 	padding-right: 1.5rem;
 }
 
+#pattern {
+
+	height: 150px;
+	background-image: url("../../uploads/2015/08/6280430.jpg");
+}
+
 .site-content {
 	padding: 1.5rem 1.5rem 0;
 }
@@ -850,6 +856,7 @@ body.site-description-hidden .site-header .site-description {
 .primary-navigation {
 	position: relative;
 	width: 100%;
+	/*background-image: url("../../uploads/2015/08/6280430.jpg");*/
 }
 
 .main-navigation ul {
