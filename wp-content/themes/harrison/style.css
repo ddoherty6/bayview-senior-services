@@ -69,7 +69,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--button-hover-color: #e36355;
 	--button-hover-text-color: #fff;
 	--header-background-color: linear-gradient(to bottom, #c2602b, #fcebd3); /*not used */
-	--header-text-color: #57260c;
+	--header-text-color: #fff;
 	--header-text-hover-color: #cf922a;
 	--header-border-color: rgba(0, 0, 0, 0.1);
 	--title-color: #202020;
@@ -701,7 +701,7 @@ textarea {
 	width: 100%;
 	overflow: hidden;
 	max-width: 1440px;
-	background-color: #fff;
+	background-color: #fdedcb;
 	background: var(--page-background-color);
 	/*background-image: url("../../uploads/2015/08/6280430.jpg");*/
 }
@@ -718,8 +718,29 @@ textarea {
 	background-image: url("../../uploads/2015/08/6280430.jpg");
 }
 
+#float-div {
+	display: flex;
+}
+
 .site-content {
-	padding: 1.5rem 1.5rem 0;
+	margin: 1.5rem 1.5rem 0;
+}
+
+#services {
+	border-radius: 25px;
+}
+
+#events {
+	border-radius: 25px;
+}
+
+#blog-title {
+	color: #dabb73;
+}
+
+.entry-content {
+	flex-direction:row;
+	display: flex;
 }
 
 .site-main {
@@ -742,7 +763,7 @@ textarea {
 # - Header
 --------------------------------------------------------------*/
 .site-header {
-	background-color: #fff;
+	background-color: #fdedcb;
 	background-color: var(--header-background-color);
 	border-bottom: 1px solid;
 	border-color: rgba(0, 0, 0, 0.1);
@@ -856,6 +877,7 @@ body.site-description-hidden .site-header .site-description {
 .primary-navigation {
 	position: relative;
 	width: 100%;
+	color: white;
 	/*background-image: url("../../uploads/2015/08/6280430.jpg");*/
 }
 
@@ -931,7 +953,7 @@ body.site-description-hidden .site-header .site-description {
 .main-navigation ul ul {
 	font-size: 16px;
 	font-size: 1rem;
-	background-color: #fff;
+	background-color: #fdedcb;
 	background-color: var(--header-background-color);
 }
 
@@ -3618,6 +3640,7 @@ figcaption,
 
 	.site-content {
 		padding: 2rem 2rem 0;
+		background-color: #fdedcb;
 	}
 
 	.page-footer {
