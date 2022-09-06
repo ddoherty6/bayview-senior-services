@@ -69,7 +69,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--button-hover-color: #e36355;
 	--button-hover-text-color: #fff;
 	--header-background-color: linear-gradient(to bottom, #c2602b, #fcebd3); /*not used */
-	--header-text-color: #fff;
+	--header-text-color: #fdedcb;
 	--header-text-hover-color: #cf922a;
 	--header-border-color: rgba(0, 0, 0, 0.1);
 	--title-color: #202020;
@@ -79,9 +79,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--footer-link-color: #57260c;
 	--footer-link-hover-color: cf922a;
 	--footer-border-color: rgba(255, 255, 255, 0.1);
-	--text-font: "Barlow", arial, helvetica, sans-serif;
-	--title-font: "Barlow", arial, helvetica, sans-serif;
-	--navi-font: "Barlow", arial, helvetica, sans-serif;
+	--text-font: apparat-light, sans-serif;
+	--title-font: apparat-light, sans-serif;
+	--navi-font: apparat-light, sans-serif;
 	--title-font-weight: bold;
 	--navi-font-weight: normal;
 	--title-text-transform: none;
@@ -277,7 +277,7 @@ textarea {
 	color: var(--text-color);
 	font-size: 16px;
 	font-size: 1rem;
-	font-family: "Barlow", arial, helvetica, sans-serif;
+	font-family: apparat-light, sans-serif;
 	font-family: var(--text-font);
 	line-height: 1.75;
 	line-height: var(--text-line-height);
@@ -291,7 +291,7 @@ h5,
 h6 {
 	clear: both;
 	margin: 1em 0 0.75em;
-	font-family: "Barlow", arial, helvetica, sans-serif;
+	font-family: apparat-light, sans-serif;
 	font-family: var(--title-font);
 	font-weight: bold;
 	font-weight: var(--title-font-weight);
@@ -722,16 +722,39 @@ textarea {
 	display: flex;
 }
 
+#post {
+	display: flex;
+}
+
+.post-img {
+	width: 200px;
+}
+.post-text {
+	width: auto;
+}
+
 .site-content {
 	margin: 1.5rem 1.5rem 0;
 }
 
+#content {
+	width: 1200px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
 #services {
 	border-radius: 25px;
+	padding: 2rem 1rem 1rem 0;
+	margin-right: 1%;
+	width: min-content;
 }
 
 #events {
 	border-radius: 25px;
+	padding: 2rem 1rem 1rem 0;
+	margin-left: 1%;
+	width: min-content;
 }
 
 #blog-title {
@@ -760,7 +783,7 @@ textarea {
 }
 
 #colophon {
-	padding-top: 0;s
+	padding-top: 0;
 }
 
 /*--------------------------------------------------------------
@@ -881,7 +904,7 @@ body.site-description-hidden .site-header .site-description {
 .primary-navigation {
 	position: relative;
 	width: 100%;
-	color: white;
+	/* color: white; */
 	/*background-image: url("../../uploads/2015/08/6280430.jpg");*/
 }
 
@@ -927,9 +950,9 @@ body.site-description-hidden .site-header .site-description {
 	display: block;
 	margin: 0;
 	padding: 1rem;
-	border-top: 1px solid;
+	/* border-top: 1px solid;
 	border-color: rgba(0, 0, 0, 0.1);
-	border-color: var(--header-border-color);
+	border-color: var(--header-border-color); */
 	text-decoration: none;
 }
 
@@ -1410,7 +1433,7 @@ body.date-hidden.author-hidden.comments-hidden .type-post .entry-meta {
 }
 
 /* Post Navigation */
-.post-navigation-wrap {
+/* .post-navigation-wrap {
 	border-top: 1px solid;
 	border-color: rgba(0, 0, 0, 0.1);
 	border-color: var(--page-border-color);
@@ -1430,10 +1453,10 @@ body.date-hidden.author-hidden.comments-hidden .type-post .entry-meta {
 .post-navigation .nav-links .nav-next {
 	margin-top: 1.25rem;
 	text-align: right;
-}
+} */
 
 /* Post Navigation Link Styling */
-.post-navigation .nav-links a:link,
+/* .post-navigation .nav-links a:link,
 .post-navigation .nav-links a:visited {
 	color: rgba(0, 0, 0, 0.5);
 	color: var(--light-text-color);
@@ -1469,7 +1492,7 @@ body.date-hidden.author-hidden.comments-hidden .type-post .entry-meta {
 .post-navigation .nav-links .nav-next .nav-link-text::after {
 	margin-left: 5px;
 	content: "\00BB";
-}
+} */
 
 /* Fullwidth Page Template */
 .page-template-template-fullwidth .site-main,
@@ -1819,7 +1842,7 @@ body.date-hidden.author-hidden.comments-hidden .type-post .entry-meta {
 @media only screen and (min-width: 960px) {
 	.infinite-scroll #infinite-handle,
 	.infinite-scroll .infinite-loader {
-		padding: 4rem 0;
+		padding: 3rem 0;
 	}
 
 	.infinite-scroll #infinite-handle span {
@@ -3743,7 +3766,7 @@ figcaption,
 	}
 
 	.site-content {
-		padding: 4rem 4rem 0;
+		padding: 2rem 2rem 0;
 	}
 
 	.page-footer {
