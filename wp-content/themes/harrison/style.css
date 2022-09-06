@@ -738,6 +738,10 @@ textarea {
 	color: #dabb73;
 }
 
+#header-images {
+	display: flex;
+}
+
 .entry-content {
 	flex-direction:row;
 	display: flex;
