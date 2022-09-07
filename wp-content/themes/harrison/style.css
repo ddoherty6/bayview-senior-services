@@ -82,8 +82,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--text-font: apparat-light, sans-serif;
 	--title-font: apparat-light, sans-serif;
 	--navi-font: apparat-light, sans-serif;
-	--title-font-weight: bold;
-	--navi-font-weight: normal;
+	--title-font-weight: normal;
+	--navi-font-weight: light;
 	--title-text-transform: none;
 	--navi-text-transform: none;
 	--text-line-height: 1.75;
@@ -726,11 +726,26 @@ textarea {
 	display: flex;
 }
 
-.post-img {
-	width: 200px;
-}
 .post-text {
 	width: auto;
+	padding-left: 3%;
+	font-size: .9em;
+}
+
+.post-text h2 {
+	font-size: 1.6em;
+}
+
+.post-text h2 {
+	margin: 0;
+}
+
+.post-text p {
+	margin: 0;
+}
+
+.post-text time {
+	font-weight: bold;
 }
 
 .site-content {
@@ -741,20 +756,52 @@ textarea {
 	width: 1200px;
 	margin-left: 1%;
 	margin-right: 1%;
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+#content img {
+	width: 300px;
+	height: 200px;
 }
 
 #services {
 	border-radius: 25px;
-	padding: 2rem 1rem 1rem 0;
+	padding: 1rem 1rem 1rem 1rem;
 	margin-right: 1%;
 	width: min-content;
+	text-align: left;
+}
+
+#services header {
+	margin: 0;
+}
+
+#services header h2 {
+	font-size: 1.5em;
 }
 
 #events {
 	border-radius: 25px;
-	padding: 2rem 1rem 1rem 0;
+	padding: 1rem 1rem 1rem 1rem;
 	margin-left: 1%;
 	width: min-content;
+}
+
+#events header {
+	margin: 0;
+}
+
+#events header h2 {
+	font-size: 1.5em;
+}
+
+#calendar {
+	color: #57260c;
+	text-align: center;
+}
+
+#calendar p {
+	margin: 0;
 }
 
 #blog-title {
@@ -844,7 +891,7 @@ textarea {
 	font-size: 1.5rem;
 	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--title-font);
-	font-weight: bold;
+	font-weight: normal;
 	font-weight: var(--title-font-weight);
 	text-transform: none;
 	text-transform: var(--title-text-transform);
@@ -1154,7 +1201,7 @@ body.site-description-hidden .site-header .site-description {
 	font-size: 1.5rem;
 	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--title-font);
-	font-weight: bold;
+	font-weight: normal;
 	font-weight: var(--title-font-weight);
 	text-transform: none;
 	text-transform: var(--title-text-transform);
@@ -1529,7 +1576,7 @@ body.date-hidden.author-hidden.comments-hidden .type-post .entry-meta {
 	font-size: 1.125rem;
 	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--title-font);
-	font-weight: bold;
+	font-weight: light;
 	font-weight: var(--title-font-weight);
 	text-transform: none;
 	text-transform: var(--title-text-transform);
@@ -3668,6 +3715,7 @@ figcaption,
 	.site-content {
 		padding: 2rem 2rem 0;
 		background-color: #fdedcb;
+		text-align: center;
 	}
 
 	.page-footer {
